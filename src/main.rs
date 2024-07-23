@@ -77,13 +77,13 @@ fn main() -> Result<()> {
                             let id = id.to_string();
                             if seen.contains(&id) {
                                 if cli.collisions {
-                                    process(&id, &v, &cli, " (DUPE!)")?;
+                                    process(&id, v, &cli, " (DUPE!)")?;
                                     seen.insert(id);
                                 } else {
                                     return Err(anyhow!("ID collision: {id:?}"));
                                 }
                             } else {
-                                process(&id, &v, &cli, "")?;
+                                process(&id, v, &cli, "")?;
                                 seen.insert(id);
                             }
                         }
@@ -109,8 +109,8 @@ Process an array element
 */
 fn process(id: &str, v: &serde_json::Value, cli: &Cli, post: &str) -> Result<()> {
     write(
-        filename(&cli.array_path, &cli.id_path, &id, ".json"),
-        json(&v, cli.pretty)?,
+        filename(&cli.array_path, &cli.id_path, id, ".json"),
+        json(v, cli.pretty)?,
     )?;
     eprintln!("            * {id:?}{post}");
     Ok(())
