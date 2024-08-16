@@ -1,6 +1,6 @@
 [package]
 name = "json-split-aom"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "Split a large JSON file containing an array of maps into multiple files"
 license = "MIT"
@@ -8,6 +8,6 @@ repository = "https://github.com/qtfkwk/json-split-aom"
 
 [dependencies]
 anyhow = "1.0.86"
-clap = { version = "4.5.9", features = ["derive", "wrap_help"] }
-serde = { version = "1.0.204", features = ["derive"] }
-serde_json = "1.0.120"
+clap = { version = "4.5.16", features = ["derive", "wrap_help"] }
+serde = { version = "1.0.208", features = ["derive"] }
+serde_json = "1.0.125"
