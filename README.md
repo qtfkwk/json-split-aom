@@ -41,6 +41,6 @@ Options:
 
 ```text
 $ json-split-aom -V
-json-split-aom 0.2.1
+json-split-aom 0.2.2
 ```
 
