@@ -4,4 +4,5 @@
 * 0.2.0 (2024-10-24): Add clap color; update dependencies
     * 0.2.1 (2024-12-04): Update dependencies; fix changelog; add commit target to makefile
     * 0.2.2 (2025-02-20): Update dependencies
+    * 0.2.3 (2025-04-16): Update dependencies
 
