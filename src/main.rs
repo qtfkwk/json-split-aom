@@ -1,8 +1,8 @@
-use anyhow::{anyhow, Result};
-use clap::{builder::Styles, Parser};
+use anyhow::{Result, anyhow};
+use clap::{Parser, builder::Styles};
 use std::{
     collections::HashSet,
-    fs::{write, File},
+    fs::{File, write},
     io::BufReader,
     path::PathBuf,
 };

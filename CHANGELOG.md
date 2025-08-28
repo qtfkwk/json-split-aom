@@ -5,4 +5,5 @@
     * 0.2.1 (2024-12-04): Update dependencies; fix changelog; add commit target to makefile
     * 0.2.2 (2025-02-20): Update dependencies
     * 0.2.3 (2025-04-16): Update dependencies
+* 0.3.0 (2025-08-28): Update dependencies; 2024 edition
 
