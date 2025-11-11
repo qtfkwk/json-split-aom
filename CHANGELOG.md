@@ -7,4 +7,7 @@
     * 0.2.3 (2025-04-16): Update dependencies
 * 0.3.0 (2025-08-28): Update dependencies; 2024 edition
     * 0.3.1 (2025-10-27): Update dependencies
+    * 0.3.2 (2025-11-11): Update dependencies; use [`clap-cargo`] `CLAP_STYLING`
+
+[`clap-cargo`]: https://crates.io/crates/clap-cargo
 

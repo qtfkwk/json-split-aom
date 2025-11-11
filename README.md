@@ -10,13 +10,13 @@ Arguments:
   [FILES]...  Input file(s)
 
 Options:
-  -a <JSON_PATH>      Dotted JSON path to an array in the input file
-  -i <JSON_PATH>      Dotted JSON path to the ID in the array element
-  -p                  Pretty print output files
-  -c                  Allow ID path collisions; still gives warnings but
-                      duplicates will overwrite previous files
-  -h, --help          Print help
-  -V, --version       Print version
+  -a <JSON_PATH>  Dotted JSON path to an array in the input file
+  -i <JSON_PATH>  Dotted JSON path to the ID in the array element
+  -p              Pretty print output files
+  -c              Allow ID path collisions; still gives warnings but duplicates
+                  will overwrite previous files
+  -h, --help      Print help
+  -V, --version   Print version
 
 ---
 
@@ -41,6 +41,6 @@ Options:
 
 ```text
 $ json-split-aom -V
-json-split-aom 0.3.1
+json-split-aom 0.3.2
 ```
 
