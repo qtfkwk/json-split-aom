@@ -1,6 +1,6 @@
 [package]
 name = "json-split-aom"
-version = "0.3.3"
+version = "0.3.4"
 edition = "2024"
 description = "Split a large JSON file containing an array of maps into multiple files"
 license = "MIT"
